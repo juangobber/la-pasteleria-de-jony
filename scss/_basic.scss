@@ -1,0 +1,14 @@
+$colores:(
+    azul-principal: #619aad,
+    gris-medio: #8b8b8b,
+    gris-claro: #c7c7c7,
+    gris-oscuro:darkslategray
+);
+.transition{
+    transition: all 0.3s;
+}
+@mixin tamano($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+$fuente-principal: 'Orelega One', cursive;

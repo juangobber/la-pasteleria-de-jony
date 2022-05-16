@@ -1,0 +1,37 @@
+@import "basic";
+@import "footer";
+@import "header";
+
+//index
+ .btn-index-productos{
+     background-color: map-get( $colores , azul-principal);
+     border: 0px;
+        &:hover{
+            @extend .transition;
+            box-shadow: 2rem #8b8b8b;
+        }
+ }
+
+//CARDS de productos
+.card{
+    .card-img-top{
+        object-fit:  contain;
+        position: relative;
+        top: 0.6rem;
+    }
+    &:hover {
+        @extend .transition;
+        box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+      }
+}
+  
+//Contacto
+  .alto-formulario {
+    height: 15rem;
+    
+}
+
+//Sobre mi
+.parrafo-sobremi{
+    font-size: larger;
+}

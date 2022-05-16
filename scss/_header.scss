@@ -1,0 +1,28 @@
+@import "basic";
+
+.navbar-brand{
+    font-family: $fuente-principal;
+}
+
+h1{
+    font-family: $fuente-principal;
+}
+
+.logo{
+    @include tamano (auto, 12rem)
+}
+
+.nav-link{
+    font-size: larger;
+    font-family: $fuente-principal;
+    &:hover{
+        font-weight: bolder;
+        color: map-get( $colores , gris-oscuro);
+        @extend .transition;
+    }
+}
+
+.activo {
+    font-weight: bolder;
+    color: map-get( $colores , azul-principal) !important;
+}
