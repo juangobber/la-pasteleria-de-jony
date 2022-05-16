@@ -27,10 +27,16 @@
   
 //Contacto
   .alto-formulario {
-    height: 15rem;
-    
+    height: 15rem;   
 }
 
+article{
+    p{
+        a{
+            text-decoration: none;
+        }
+    }
+}
 //Sobre mi
 .parrafo-sobremi{
     font-size: larger;

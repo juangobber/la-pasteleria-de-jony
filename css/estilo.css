@@ -66,5 +66,8 @@ h1 {
 .alto-formulario {
   height: 15rem; }
 
+article p a {
+  text-decoration: none; }
+
 .parrafo-sobremi {
   font-size: larger; }
